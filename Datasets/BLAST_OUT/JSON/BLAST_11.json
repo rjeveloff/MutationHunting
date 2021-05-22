@@ -1,0 +1,201 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastx",
+      "version": "BLASTX 2.9.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "../../protein_db.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;",
+        "cbs": 2,
+        "query_gencode": 1
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_11",
+          "query_title": "MT186682.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/IRN/9BE/2020 nucleocapsid phosphoprotein (N) gene, partial cds",
+          "query_len": 363,
+          "query_masking": [
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "cds-YP_009724397.2;",
+                  "accession": "cds-YP_009724397.2;",
+                  "title": "gene-GU280_gp10; Genbank:YP_009724397.2; YP_009724397.2; ORF9; structural protein; CDS; N; GU280_gp10; nucleocapsid phosphoprotein; YP_009724397.2"
+                }
+              ],
+              "len": 419,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 255.758,
+                  "score": 652,
+                  "evalue": 5.63995e-89,
+                  "identity": 120,
+                  "positive": 120,
+                  "query_from": 3,
+                  "query_to": 362,
+                  "query_frame": 3,
+                  "hit_from": 36,
+                  "hit_to": 155,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RSKQRRPQGLPNNTASWFTALTQHGKEDLKFPRGQGVPINTNSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGANKDGIIWVATEGALNTPKDHIGTRNPANNA",
+                  "hseq": "RSKQRRPQGLPNNTASWFTALTQHGKEDLKFPRGQGVPINTNSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGANKDGIIWVATEGALNTPKDHIGTRNPANNA",
+                  "midline": "RSKQRRPQGLPNNTASWFTALTQHGKEDLKFPRGQGVPINTNSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGANKDGIIWVATEGALNTPKDHIGTRNPANNA"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "cds-YP_009725295.1;",
+                  "accession": "cds-YP_009725295.1;",
+                  "title": "gene-GU280_gp01; Genbank:YP_009725295.1; YP_009725295.1; pp1a; CDS; ORF1ab; GU280_gp01; ORF1a polyprotein; YP_009725295.1"
+                }
+              ],
+              "len": 4405,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.4754,
+                  "score": 36,
+                  "evalue": 2.41392,
+                  "identity": 7,
+                  "positive": 10,
+                  "query_from": 246,
+                  "query_to": 308,
+                  "query_frame": 3,
+                  "hit_from": 425,
+                  "hit_to": 445,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "PEAGLPYGANKDGIIWVATEG",
+                  "hseq": "PRASANIGCNHTGVVGEGSEG",
+                  "midline": "P A    G N  G++   +EG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 18.0902,
+                  "score": 35,
+                  "evalue": 3.01314,
+                  "identity": 6,
+                  "positive": 7,
+                  "query_from": 4,
+                  "query_to": 39,
+                  "query_frame": 1,
+                  "hit_from": 187,
+                  "hit_to": 198,
+                  "align_len": 12,
+                  "gaps": 0,
+                  "qseq": "DQNNVGPKVYPI",
+                  "hseq": "DNNFCGPDGYPL",
+                  "midline": "D N  GP  YP+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 16.5494,
+                  "score": 31,
+                  "evalue": 9.49304,
+                  "identity": 5,
+                  "positive": 11,
+                  "query_from": 204,
+                  "query_to": 251,
+                  "query_frame": -2,
+                  "hit_from": 3654,
+                  "hit_to": 3669,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "FWPSS*VVEIPSWTEI",
+                  "hseq": "YMPASWVMRIMTWLDM",
+                  "midline": "+ P+S V+ I +W ++"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "cds-YP_009724389.1;",
+                  "accession": "cds-YP_009724389.1;",
+                  "title": "gene-GU280_gp01; Genbank:YP_009724389.1; YP_009724389.1; pp1ab; translated by -1 ribosomal frameshift; ribosomal slippage; CDS; ORF1ab; GU280_gp01; ORF1ab polyprotein; YP_009724389.1"
+                }
+              ],
+              "len": 2695,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.0902,
+                  "score": 35,
+                  "evalue": 3.21462,
+                  "identity": 12,
+                  "positive": 15,
+                  "query_from": 282,
+                  "query_to": 353,
+                  "query_frame": 3,
+                  "hit_from": 1401,
+                  "hit_to": 1428,
+                  "align_len": 30,
+                  "gaps": 8,
+                  "qseq": "GIIWVATEGALNTPKDHIG------TRNPA",
+                  "hseq": "GVITHDVSSAINRPQ--IGVVREFLTRNPA",
+                  "midline": "G+I      A+N P+  IG      TRNPA"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "cds-YP_009724393.1;",
+                  "accession": "cds-YP_009724393.1;",
+                  "title": "gene-GU280_gp05; Genbank:YP_009724393.1; YP_009724393.1; ORF5; structural protein; CDS; M; GU280_gp05; membrane glycoprotein; YP_009724393.1"
+                }
+              ],
+              "len": 222,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 16.5494,
+                  "score": 31,
+                  "evalue": 8.67904,
+                  "identity": 10,
+                  "positive": 19,
+                  "query_from": 75,
+                  "query_to": 194,
+                  "query_frame": 3,
+                  "hit_from": 157,
+                  "hit_to": 192,
+                  "align_len": 41,
+                  "gaps": 6,
+                  "qseq": "GKEDLKFPRGQGVPINTNSSPDDQIGYYRR-ATRRIRGGDG",
+                  "hseq": "GRCDIK-----DLPKEITVATSRTLSYYKLGASQRVAGDSG",
+                  "midline": "G+ D+K      +P     +    + YY+  A++R+ G  G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 12,
+            "db_len": 9748,
+            "hsp_len": 43,
+            "eff_space": 720096,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

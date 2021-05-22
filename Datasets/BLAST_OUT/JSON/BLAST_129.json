@@ -1,0 +1,240 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastx",
+      "version": "BLASTX 2.9.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "../../protein_db.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;",
+        "cbs": 2,
+        "query_gencode": 1
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_129",
+          "query_title": "MT875583.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/Homosapiens/IRQ/IRAQ-ERBIL/2020 membrane glycoprotein (M) gene, complete cds",
+          "query_len": 669,
+          "query_masking": [
+            {
+              "from": 19,
+              "to": 49
+            },
+            {
+              "from": 178,
+              "to": 205
+            },
+            {
+              "from": 556,
+              "to": 589
+            },
+            {
+              "from": 14,
+              "to": 32
+            }
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "cds-YP_009724393.1;",
+                  "accession": "cds-YP_009724393.1;",
+                  "title": "gene-GU280_gp05; Genbank:YP_009724393.1; YP_009724393.1; ORF5; structural protein; CDS; M; GU280_gp05; membrane glycoprotein; YP_009724393.1"
+                }
+              ],
+              "len": 222,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 452.595,
+                  "score": 1163,
+                  "evalue": 1.52193e-167,
+                  "identity": 222,
+                  "positive": 222,
+                  "query_from": 1,
+                  "query_to": 666,
+                  "query_frame": 1,
+                  "hit_from": 1,
+                  "hit_to": 222,
+                  "align_len": 222,
+                  "gaps": 0,
+                  "qseq": "MADSNGTITVEELKKLLEQWNLVIGFLFLTWICLLQFAYANRNRFLYIIKLIFLWLLWPVTLACFVLAAVYRINWITGGIAIAMACLVGLMWLSYFIASFRLFARTRSMWSFNPETNILLNVPLHGTILTRPLLESELVIGAVILRGHLRIAGHHLGRCDIKDLPKEITVATSRTLSYYKLGASQRVAGDSGFAAYSRYRIGNYKLNTDHSSSSDNIALLVQ",
+                  "hseq": "MADSNGTITVEELKKLLEQWNLVIGFLFLTWICLLQFAYANRNRFLYIIKLIFLWLLWPVTLACFVLAAVYRINWITGGIAIAMACLVGLMWLSYFIASFRLFARTRSMWSFNPETNILLNVPLHGTILTRPLLESELVIGAVILRGHLRIAGHHLGRCDIKDLPKEITVATSRTLSYYKLGASQRVAGDSGFAAYSRYRIGNYKLNTDHSSSSDNIALLVQ",
+                  "midline": "MADSNGTITVEELKKLLEQWNLVIGFLFLTWICLLQFAYANRNRFLYIIKLIFLWLLWPVTLACFVLAAVYRINWITGGIAIAMACLVGLMWLSYFIASFRLFARTRSMWSFNPETNILLNVPLHGTILTRPLLESELVIGAVILRGHLRIAGHHLGRCDIKDLPKEITVATSRTLSYYKLGASQRVAGDSGFAAYSRYRIGNYKLNTDHSSSSDNIALLVQ"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "cds-YP_009724389.1;",
+                  "accession": "cds-YP_009724389.1;",
+                  "title": "gene-GU280_gp01; Genbank:YP_009724389.1; YP_009724389.1; pp1ab; translated by -1 ribosomal frameshift; ribosomal slippage; CDS; ORF1ab; GU280_gp01; ORF1ab polyprotein; YP_009724389.1"
+                }
+              ],
+              "len": 2695,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 0.489954,
+                  "identity": 6,
+                  "positive": 8,
+                  "query_from": 107,
+                  "query_to": 139,
+                  "query_frame": -3,
+                  "hit_from": 1745,
+                  "hit_to": 1755,
+                  "align_len": 11,
+                  "gaps": 0,
+                  "qseq": "TKTYSCWHRQI",
+                  "hseq": "SDTYACWHHSI",
+                  "midline": "+ TY+CWH  I"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 4.55397,
+                  "identity": 8,
+                  "positive": 9,
+                  "query_from": 272,
+                  "query_to": 328,
+                  "query_frame": 2,
+                  "hit_from": 931,
+                  "hit_to": 949,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "CGSATSLLLSDCLRVRVPC",
+                  "hseq": "CNSQTSLRCGACIRRPFLC",
+                  "midline": "C S TSL    C+R    C"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "cds-YP_009725295.1;",
+                  "accession": "cds-YP_009725295.1;",
+                  "title": "gene-GU280_gp01; Genbank:YP_009725295.1; YP_009725295.1; pp1a; CDS; ORF1ab; GU280_gp01; ORF1a polyprotein; YP_009725295.1"
+                }
+              ],
+              "len": 4405,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 2.4637,
+                  "identity": 13,
+                  "positive": 18,
+                  "query_from": 226,
+                  "query_to": 339,
+                  "query_frame": 1,
+                  "hit_from": 3048,
+                  "hit_to": 3081,
+                  "align_len": 39,
+                  "gaps": 6,
+                  "qseq": "ITGGI-AIAMACLVGLMWLSYFIASFRLFARTRSMWSFN",
+                  "hseq": "VAGGIVAIVVTCLA-----YYFMRFRRAFGEYSHVVAFN",
+                  "midline": "+ GGI AI + CL       YF+   R F     + +FN"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 3.25365,
+                  "identity": 9,
+                  "positive": 15,
+                  "query_from": 442,
+                  "query_to": 534,
+                  "query_frame": 1,
+                  "hit_from": 3337,
+                  "hit_to": 3364,
+                  "align_len": 31,
+                  "gaps": 3,
+                  "qseq": "HLRIAGHHLGRCDIKDLPKEITVATSRTLSY",
+                  "hseq": "QLRVIGHSMQNCVLK---LKVDTANPKTPKY",
+                  "midline": " LR+ GH +  C +K    ++  A  +T  Y"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 18.4754,
+                  "score": 36,
+                  "evalue": 5.1722,
+                  "identity": 5,
+                  "positive": 8,
+                  "query_from": 449,
+                  "query_to": 475,
+                  "query_frame": -3,
+                  "hit_from": 568,
+                  "hit_to": 576,
+                  "align_len": 9,
+                  "gaps": 0,
+                  "qseq": "SVLDGVQQY",
+                  "hseq": "TILDGISQY",
+                  "midline": "++LDG+ QY"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 18.0902,
+                  "score": 35,
+                  "evalue": 6.86645,
+                  "identity": 9,
+                  "positive": 10,
+                  "query_from": 181,
+                  "query_to": 231,
+                  "query_frame": 1,
+                  "hit_from": 2121,
+                  "hit_to": 2137,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "TLACFVLAAVYRINWIT",
+                  "hseq": "TLATHGLAAVNSVPWDT",
+                  "midline": "TLA   LAAV  + W T"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 17.705,
+                  "score": 34,
+                  "evalue": 9.09396,
+                  "identity": 5,
+                  "positive": 5,
+                  "query_from": 228,
+                  "query_to": 263,
+                  "query_frame": 3,
+                  "hit_from": 2448,
+                  "hit_to": 2459,
+                  "align_len": 12,
+                  "gaps": 0,
+                  "qseq": "HRWNCYRNGLSC",
+                  "hseq": "HNWNCVNCDTFC",
+                  "midline": "H WNC      C"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 12,
+            "db_len": 9748,
+            "hsp_len": 48,
+            "eff_space": 1605100,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastx",
+      "version": "BLASTX 2.9.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "../../protein_db.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;",
+        "cbs": 2,
+        "query_gencode": 1
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "MT042777.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/Wuhan/Tongji-05/2020 orf1ab polyprotein, RNA-dependent RNA polymerase region, gene, partial cds",
+          "query_len": 294,
+          "query_masking": [
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "cds-YP_009724389.1;",
+                  "accession": "cds-YP_009724389.1;",
+                  "title": "gene-GU280_gp01; Genbank:YP_009724389.1; YP_009724389.1; pp1ab; translated by -1 ribosomal frameshift; ribosomal slippage; CDS; ORF1ab; GU280_gp01; ORF1ab polyprotein; YP_009724389.1"
+                }
+              ],
+              "len": 2695,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 205.682,
+                  "score": 522,
+                  "evalue": 4.84972e-66,
+                  "identity": 98,
+                  "positive": 98,
+                  "query_from": 1,
+                  "query_to": 294,
+                  "query_frame": 1,
+                  "hit_from": 638,
+                  "hit_to": 735,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SLSHRFYRLANECAQVLSEMVMCGGSLYVKPGGTSSGDATTAYANSVFNICQAVTANVNALLSTDGNKIADKYVRNLQHRLYECLYRNRDVDTDFVNE",
+                  "hseq": "SLSHRFYRLANECAQVLSEMVMCGGSLYVKPGGTSSGDATTAYANSVFNICQAVTANVNALLSTDGNKIADKYVRNLQHRLYECLYRNRDVDTDFVNE",
+                  "midline": "SLSHRFYRLANECAQVLSEMVMCGGSLYVKPGGTSSGDATTAYANSVFNICQAVTANVNALLSTDGNKIADKYVRNLQHRLYECLYRNRDVDTDFVNE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 16.9346,
+                  "score": 32,
+                  "evalue": 5.31239,
+                  "identity": 5,
+                  "positive": 12,
+                  "query_from": 172,
+                  "query_to": 222,
+                  "query_frame": 1,
+                  "hit_from": 835,
+                  "hit_to": 851,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "VNALLSTDGNKIADKYV",
+                  "hseq": "VDDIVKTDGTLMIERFV",
+                  "midline": "V+ ++ TDG  + +++V"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 16.5494,
+                  "score": 31,
+                  "evalue": 6.39542,
+                  "identity": 6,
+                  "positive": 6,
+                  "query_from": 70,
+                  "query_to": 87,
+                  "query_frame": 1,
+                  "hit_from": 1940,
+                  "hit_to": 1945,
+                  "align_len": 6,
+                  "gaps": 0,
+                  "qseq": "GGSLYV",
+                  "hseq": "GGSLYV",
+                  "midline": "GGSLYV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "cds-YP_009724390.1;",
+                  "accession": "cds-YP_009724390.1;",
+                  "title": "gene-GU280_gp02; Genbank:YP_009724390.1; YP_009724390.1; structural protein; spike protein; CDS; S; GU280_gp02; surface glycoprotein; YP_009724390.1"
+                }
+              ],
+              "len": 1273,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.0902,
+                  "score": 35,
+                  "evalue": 2.14392,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 82,
+                  "query_to": 132,
+                  "query_frame": 1,
+                  "hit_from": 248,
+                  "hit_to": 264,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "YVKPGGTSSGDATTAYA",
+                  "hseq": "YLTPGDSSSGWTAGAAA",
+                  "midline": "Y+ PG +SSG    A A"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "cds-YP_009725295.1;",
+                  "accession": "cds-YP_009725295.1;",
+                  "title": "gene-GU280_gp01; Genbank:YP_009725295.1; YP_009725295.1; pp1a; CDS; ORF1ab; GU280_gp01; ORF1a polyprotein; YP_009725295.1"
+                }
+              ],
+              "len": 4405,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 17.3198,
+                  "score": 33,
+                  "evalue": 3.8256,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 57,
+                  "query_to": 122,
+                  "query_frame": 3,
+                  "hit_from": 3477,
+                  "hit_to": 3501,
+                  "align_len": 25,
+                  "gaps": 3,
+                  "qseq": "NGHVW---RFTIC*TRWNLIRRCHN",
+                  "hseq": "NGDRWFLNRFTTTLNDFNLVAMKYN",
+                  "midline": "NG  W   RFT     +NL+   +N"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 12,
+            "db_len": 9748,
+            "hsp_len": 41,
+            "eff_space": 527592,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
