@@ -3,7 +3,7 @@
 xmlns="http://www.ncbi.nlm.nih.gov"
 xmlns:xi="http://www.w3.org/2003/XInclude"
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-xs:schemaLocation="http://www.ncbi.nlm.nih.gov http://www.ncbi.nlm.nih.gov/data_specs/schema_alt/NCBI_BlastOutput2.xsd">
+xs:schemaLocation="http://www.ncbi.nlm.nih.gov http://www.ncbi.nlm.nih.gov/data_specs/schema_alt/NCBI_BlastXML2.xsd">
 	<xi:include href="BLAST_1.xml"/>
 	<xi:include href="BLAST_2.xml"/>
 	<xi:include href="BLAST_3.xml"/>
